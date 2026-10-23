@@ -10,8 +10,8 @@ lfi_hunt.py - aggressive PHP recon + LFI discovery for the php2shell chain
   5. prints a ready-to-paste --lfi value
 
 Usage:
-  python3 lfi_hunt.py https://uv.bf
-  python3 lfi_hunt.py https://uv.bf --cookie 'PHPSESSID=x' --threads 25
+  python3 lfi_hunt.py https://host
+  python3 lfi_hunt.py https://host --cookie 'PHPSESSID=x' --threads 25
 """
 
 from __future__ import annotations
